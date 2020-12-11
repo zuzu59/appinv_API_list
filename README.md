@@ -1,6 +1,6 @@
 # appinv_API_list
 Petite application Android de démo de lecture d'une API en AppInventor (Scratch)
-zf201211.1014
+zf201211.1017
 
 
 
@@ -31,12 +31,13 @@ AppInventor est vraiment un sacré IDE tout en ligne qui permet de d'écrire, de
 
 ## Installation
 ### Sur l'interface de AppInventor
-Sur l'interface WEB de AppInventor, il faut importer un projet .aia depuis son ordinateur.
+Sur l'interface WEB de AppInventor, il faut importer un projet .aia depuis son ordinateur:
+https://github.com/zuzu59/appinv_API_list/blob/main/API_list.aia
 
 
 ### Sur son smartphone Android
-Simplement charger, via le browser de son smartphone le fichier apk qui se trouve ici:
-
+Simplement charger, via le browser de son smartphone, le fichier *.apk* qui se trouve ici:
+https://github.com/zuzu59/appinv_API_list/releases
 
 
 ## Utilisation
