@@ -1,7 +1,7 @@
 # appinv_API_list
 Petite application Android de démo de lecture d'une API en AppInventor (Scratch)
 
-zf201211.1641
+zf201211.1650
 
 <!-- TOC titleSize:2 tabSpaces:2 depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 skip:1 title:1 charForUnorderedList:* -->
 ## Table of Contents
@@ -41,17 +41,26 @@ Ce n'est pas facile d'écrire une application simple pour Android, cela demande 
 On va utiliser pour cette petite démo un langage informatique très rigolo, le *Scratch*.
 https://fr.wikipedia.org/wiki/Scratch_(langage)
 
+![Image](https://raw.githubusercontent.com/zuzu59/appinv_API_list/main/img/code_scratch_hello_world.png)
+
 Qui va nous permettre de mieux comprendre l'utilisation des blocs *logiques* en informatique.
+
 
 ### Environnement de développement
 Et pour faire une application pour un smartphone Android, on va utiliser l'excellent site *Scratch* du MIT
 http://appinventor.mit.edu/explore/get-started
 
+![Image](https://raw.githubusercontent.com/zuzu59/appinv_API_list/main/img/screen_designer.png)
+
 *AppInventor* est vraiment un sacré IDE tout en ligne qui permet de d'écrire, de tester et de *builder* un fichier *.apk* pour un smartphone Android.
 Il de dessiner l'interface graphique et d'écrie le code de l'application, puis de pouvoir le tester, en temps réel sur son smartphone, sans devoir le compiler et télécharger en permanence.
 
+
 ### Partage d'écran du smartphone
 On va aussi utiliser l'application *AirDroid* sur son smartphone, qui va permettre de *partager* l'écran de son smartphone dans une *fenêtre* de son browser afin de pouvoir le *voir* quand on se trouve en *vidéo conférence* Zoom par exemple.
+
+![Image](https://raw.githubusercontent.com/zuzu59/appinv_API_list/main/img/airdroid.png)
+
 
 ### Source de données, kata-API
 Pour l'instant notre source de données se trouve provisoirement sur:
@@ -73,10 +82,12 @@ Puis après, dans le menu *Projects* il faut *importer un projet .aia* depuis so
 
 https://github.com/zuzu59/appinv_API_list/blob/main/API_list.aia
 
+
 #### Application pour les tests en temps réel sur son smartphone
 Et enfin, sur son smartphone, il faut encore installer le *MIT AI2 Companion App*, afin de pouvoir *connecter*, via le WIFI, très facilement son smartphone à l'IDE pour pouvoir tester son application en temps réel sur son smartphone:
 
 http://appinventor.mit.edu/explore/ai2/setup-device-wifi
+
 
 #### Partager l'écran de son smartphone dans une fenêtre du browser (vidéo conférence)
 Afin de pouvoir *partager* l'écran de notre smartphone, où tourne notre application, quand on se trouve en *vidéo conférence* Zoom par exemple. On doir encore installer l'application *AirDroid* sur son smartphone:
@@ -94,18 +105,21 @@ https://github.com/zuzu59/appinv_API_list/releases
 Pour l'instant quand on appuie sur le premier bouton, cela va chercher tous les noms des bières du *kata-API* pour les afficher dans sur l'écran.
 
 
-
 ## Comment partager son code après ?
 *Scratch* est un code *graphique*, on ne peut donc pas le partager comme d'habitude sur Github. Il faudra être ici un peu plus imaginatif.
+
 
 ### Exporter le code App Inventor 2
 Il faut pour cela aller dans le menu *Project* puis de faire *Export select project (.aia) to computer*. C'est ce fichier que l'on va pouvoir partager via Github. Cela permettra à d'autre de pouvoir faire un *import* de ce fichier pour pouvoir le modifier dans *App Inventor 2*.
 
+
 ### Partage visuel du code Scratch
 C'est quand même aussi pratique de pouvoir *voir* le code *Scratch* sans devoir importer le fichier *.aia*. Pour cela, quand on se trouve dans la fenêtre du code *blocks*, on peut choisir avec le bouton de droite de la souris *Download Blocks as image*. Ce fichier on pourra alors aussi le partager sur Github.
 
+
 ### Partage visuel de l'interface (designer) de l'application du smartphone
 C'est aussi pratique de pouvoir montrer comment on a *disposé* les éléments sur l'écran du smartphone. Pour cela, il faut simplement en faire une *copie d'écran* avec sons outil favoris de copie d'écran. A nouveau, on peut le partager sur Github
+
 
 ### Partage de l'application compilée .apk
 Finalement c'est une bonne chose de *partager* son application compilée sans devoir l'*importer* et la *compiler* dans *App Inventor 2*. Pour cela, il faut en premier *compiler* (menu build) un fichier *.apk*. Puis après on peut le *partager* via la fonctionnalité *releases* de Github. 
